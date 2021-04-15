@@ -1,0 +1,21 @@
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job cdd4adfe-a0ae-a04e-49f0-15f4532c2d12 has started
+Log file is located at: /home/cenon4dno/.azcopy/cdd4adfe-a0ae-a04e-49f0-15f4532c2d12.log
+
+0 Files Scanned at Source, 0 Files Scanned at Destination
+
+Job cdd4adfe-a0ae-a04e-49f0-15f4532c2d12 Summary
+Files Scanned at Source: 4
+Files Scanned at Destination: 4
+Elapsed Time (Minutes): 0.0334
+Number of Copy Transfers for Files: 0
+Number of Copy Transfers for Folder Properties: 0 
+Total Number Of Copy Transfers: 0
+Number of Copy Transfers Completed: 0
+Number of Copy Transfers Failed: 0
+Number of Deletions at Destination: 0
+Total Number of Bytes Transferred: 0
+Total Number of Bytes Enumerated: 0
+Final Job Status: Completed
+
