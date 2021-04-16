@@ -5,6 +5,7 @@ Initial purpose of this application was to share my meeting recording's to my cu
 - Azure blob storage
 - AzCopy V10 
 - AZ CLI 2.22 or latest
+- Bash Shell (if you are running windows 10)
 
 ## Installation:
 Use the git to clone and pull.
@@ -41,6 +42,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - Generate SAS on Azure blob storage https://adamtheautomator.com/azure-sas-token/
 - Installing AzCopy https://www.thomasmaurer.ch/2019/05/how-to-install-azcopy-for-azure-storage/
 - Installing AZ CLI https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
+- Installing Bash on Windows 10 https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
