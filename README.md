@@ -1,4 +1,4 @@
-azCopy-for-MeetingSync is a shell application to simplify your file sync to Azure blob storage.
+azCopy-for-file-sync is a shell application to simplify your file sync to Azure blob storage.
 Initially this application was suppose to enable me to securely share my meeting recordings to my customer(s) thru Azure blob storage share link.
 
 ## Prerequisite:
@@ -11,9 +11,9 @@ Initially this application was suppose to enable me to securely share my meeting
 ## Installation:
 Use the git to clone and pull.
 ```bash
-git clone git@github.com:cenon4dno/azCopy-for-MeetingSync.git
+git clone git@github.com:cenon4dno/azCopy-for-file-sync.git
 ```
-Or donwload as ZIP on https://github.com/cenon4dno/azCopy-for-MeetingSync.
+Or donwload as ZIP on https://github.com/cenon4dno/azCopy-for-file-sync.
 
 ## Configuration:
 1. Create a SAS key on your Azure blob storage      
