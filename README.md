@@ -27,7 +27,7 @@ blobStorageSAS='<GeneratedSasKey>'
 4. Rename main file from blob-setup.sh to blob.sh
 
 ## Usage
-- Place all files you want to sync in the recordings directory and execute:
+- Place all files you want to sync in the recordings directory then go back to root directory and execute:
 ```bash
 ./main.sh
 ```
