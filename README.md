@@ -1,22 +1,39 @@
+azCopy-for-MeetingSync is a shell application to simplify your file sync to an Azure blob storage.
 
 
-Prerequisite:
-    - AzCopy V10 Reference: https://www.thomasmaurer.ch/2019/05/how-to-install-azcopy-for-azure-storage/
-    - AZ CLI 2.22 or latest
+## Prerequisite:
+- Azure blob storage
+- AzCopy V10 
+- AZ CLI 2.22 or latest
 
-Installation:
+## Installation:
+Use the git to clone and pull.
 
-App Step by step action:
+```bash
+git clone git@github.com:cenon4dno/azCopy-for-MeetingSync.git
+```
 
-1. Grab configs for blob storage
-3. Validate blob storage
-4. Check files if sync
-5. If not, upload new files
-6. Generate SAS
-7. Update history log
-8. Output URL
+Or donwload as ZIP on https://github.com/cenon4dno/azCopy-for-MeetingSync.
 
-Commands:
-- Update
-- Delete
-- Manual upload
+## Configuration:
+- Create a SAS key on your Azure blob storage                  
+- Fill in the <NameOfBlobStorage> and <GeneratedSasKey> below. 
+- Rename main file from blob-setup.sh to blob.sh               
+
+## Usage
+- Place all files you want to sync in the recordings directory and execute:
+```bash
+./main.sh
+```
+- Open videourl and you should be able to see your files with their corresponding URL. With that URL you can now share the file to anyone.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Rerefence
+- Setup an Azure blob storage https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal
+- Generate SAS on Azure blob storage https://adamtheautomator.com/azure-sas-token/
+- Installing AzCopy https://www.thomasmaurer.ch/2019/05/how-to-install-azcopy-for-azure-storage/
+- Installing AZ CLI https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
+
+## License
