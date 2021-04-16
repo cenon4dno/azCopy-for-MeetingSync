@@ -23,9 +23,8 @@ echo "" > $videourlDirectory$date
 for entry in "$recordingsDirectory"/*
 do
     directoryStructure=$entry
-    IFS='/' read -a ARRAY <<< "$directoryStructure" # one-line solution
-    echo "$IFS" # notice that IFS didn't change afterwards
-    file="${ARRAY[2]}" # shows the results
+    IFS='/' read -a ARRAY <<< "$directoryStructure"    
+    file="${ARRAY[2]}"
     echo "$blobStorageLink/$file$blobStorageDelimiter$blobStorageSAS" >> $videourlDirectory$date
 done
 
