@@ -2,10 +2,15 @@ azCopy-for-MeetingSync is a shell application to simplify your file sync to Azur
 Initially this application was suppose to enable me to securely share my meeting recordings to my customer(s) thru Azure blob storage share link.
 
 ## Prerequisite:
+### For BASH terminal option:
 - Azure blob storage
 - AzCopy V10 
 - AZ CLI 2.22 or latest
 - Bash Shell (if you are running windows 10)
+### For Powershell terminal option:
+- Azure blob storage
+- AzCopy V10 
+- AZ CLI 2.22 or latest
 
 ## Installation:
 Use the git to clone and pull.
@@ -18,19 +23,29 @@ Or donwload as ZIP on https://github.com/cenon4dno/azCopy-for-MeetingSync.
 
 ## Configuration:
 1. Create a SAS key on your Azure blob storage      
-2. Open blob-setup.sh            
+2. Open setup/blob-setup.sh (BASH Users) or setup/blob-setup.ps1 (Powershell Users).
 3. Fill in the NameOfBlobStorage and GeneratedSasKey below. 
 ```bash
 blobStorageLink='https://<NameOfBlobStorage>.blob.core.windows.net/recordings'
 blobStorageDelimiter='?'
 blobStorageSAS='<GeneratedSasKey>'
 ```
-4. Rename main file from blob-setup.sh to blob.sh
+4. Rename file from setup/
+- (BASH Users) blob-setup.sh to blob.sh
+- (Powershell Users) blob-setup.ps1 to blob.ps1
+5. Move the blob file to:
+- (BASH Users) bash directory
+- (Powershell Users) powershell directory
 
 ## Usage
 - Place all files you want to sync in the recordings directory then go back to root directory and execute:
+- BASH Users
 ```bash
-./main.sh
+./bash/main.sh
+```
+- Powershell Users
+```bash
+.\poweshell\main.ps1
 ```
 - Open videourl directory and open the current date file, you should be able to see your files with its corresponding URL.
 

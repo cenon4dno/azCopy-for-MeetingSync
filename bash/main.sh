@@ -1,6 +1,6 @@
 #!/bin/bash
 echo 'Start Application'
-. blob.sh
+. "./bash/blob.sh"
 
 # Variable Declaration
 date=$(date '+%Y-%m-%d')
