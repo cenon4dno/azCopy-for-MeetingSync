@@ -23,7 +23,7 @@ Or donwload as ZIP on https://github.com/cenon4dno/azCopy-for-MeetingSync.
 blobStorageLink='https://<NameOfBlobStorage>.blob.core.windows.net/recordings'
 blobStorageDelimiter='?'
 blobStorageSAS='<GeneratedSasKey>'
-```bash
+```
 4. Rename main file from blob-setup.sh to blob.sh
 
 ## Usage
