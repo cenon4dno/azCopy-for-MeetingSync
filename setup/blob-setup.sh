@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # ------------Please setup below----------------------------------#
 # 1. Create a SAS key on your Azure blob storage                  #
 # 2. Fill in the <NameOfBlobStorage> and <GeneratedSasKey> below. #
