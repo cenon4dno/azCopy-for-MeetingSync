@@ -17,7 +17,7 @@ Or donwload as ZIP on https://github.com/cenon4dno/azCopy-for-MeetingSync.
 
 ## Configuration:
 1. Create a SAS key on your Azure blob storage      
-2. You have 2 options bash or powershell:
+2. You have 2 options (bash or powershell) to setup your app to connect to Azure blob storage:
 - (BASH) Open setup/blob-setup.sh 
 - (Powershell) Open setup/blob-setup.ps1
 3. Fill in the NameOfBlobStorage and GeneratedSasKey below, based on your setup on #1. 
