@@ -34,8 +34,8 @@ blobStorageSAS='<GeneratedSasKey>'
 - (BASH Users) blob-setup.sh to blob.sh
 - (Powershell Users) blob-setup.ps1 to blob.ps1
 5. Move the blob file to:
-- (BASH Users) bash directory
-- (Powershell Users) powershell directory
+- (BASH Users) blob.sh to bash directory
+- (Powershell Users) blob.ps1 to powershell directory
 
 ## Usage
 - Place all files you want to sync in the recordings directory then go back to root directory and execute:
