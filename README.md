@@ -16,9 +16,15 @@ git clone git@github.com:cenon4dno/azCopy-for-MeetingSync.git
 Or donwload as ZIP on https://github.com/cenon4dno/azCopy-for-MeetingSync.
 
 ## Configuration:
-- Create a SAS key on your Azure blob storage                  
-- Fill in the <NameOfBlobStorage> and <GeneratedSasKey> below. 
-- Rename main file from blob-setup.sh to blob.sh               
+1. Create a SAS key on your Azure blob storage      
+2. Open blob-setup.sh            
+3. Fill in the NameOfBlobStorage and GeneratedSasKey below. 
+```bash
+blobStorageLink='https://<NameOfBlobStorage>.blob.core.windows.net/recordings'
+blobStorageDelimiter='?'
+blobStorageSAS='<GeneratedSasKey>'
+```bash
+4. Rename main file from blob-setup.sh to blob.sh
 
 ## Usage
 - Place all files you want to sync in the recordings directory and execute:
