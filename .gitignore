@@ -1,2 +1,9 @@
-/bash/blob.sh
-/powershell/blob.ps1
+# exclude everything
+bash/blob.sh
+powershell/blob.ps1
+share/*
+logs/*
+
+# exception to the rule
+!share/.gitkeep
+!logs/.gitkeep
