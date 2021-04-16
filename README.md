@@ -43,7 +43,10 @@ blobStorageSAS='<GeneratedSasKey>'
 ```bash
 .\poweshell\main.ps1
 ```
-- Open videourl directory and open the current date file, you should be able to see your files with its corresponding URL.
+- Open logs directory, you should be able to find 3 types of logs:
+- FileUrl logs: You can get every files link share url here.
+- Run logs: You can see what were the changes of the previous run.
+- History logs: You can see activities of the app.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

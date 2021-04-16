@@ -7,25 +7,24 @@ $datetime = Get-Date
 # Video recordings config
 $recordingsDirectory = 'recordings/'
 # Log config
-$logDirectory = 'log/'
-# History Config
-$historyFile = 'history/history.log'
-# Video URL Config
-$videourlDirectory = 'videourl/'
+$logDirectory = 'logs/'
+# log files
+$run = 'run-'
+$fileurl = 'fileurl-'
+$history = 'history'
 
 # Sync Files
 $command="azcopy sync '$recordingsDirectory' '$blobStorageLink$blobStorageDelimiter$blobStorageSAS'"
-Invoke-Expression -Command $command | Out-File -FilePath $logDirectory$date
+Invoke-Expression -Command $command | Out-File -FilePath "$($logDirectory)$($run)$($date).log"
 
 # Write to videourl
-Out-File -FilePath $videourlDirectory$date
+Out-File -FilePath "$($logDirectory)$($fileurl)$($date).log"
 Get-ChildItem $recordingsDirectory -recurse | ForEach-Object {
      $file = $_.Name
-     Write-Output $_.Name
-     Write-Output "$blobStorageLink/$file$blobStorageDelimiter$blobStorageSAS" | Add-Content -Path $videourlDirectory$date
+     Write-Output "$blobStorageLink/$file$blobStorageDelimiter$blobStorageSAS" | Add-Content -Path "$($logDirectory)$($fileurl)$($date).log"
 }
 
 # Write to history
-Write-Output "$datetime Synced '$recordingsDirectory' directory" | Out-File -FilePath $historyFile
+Write-Output "$datetime Synced '$recordingsDirectory' directory" | Out-File -FilePath "$($logDirectory)$($history).log"
 
 Write-Output 'End Application'

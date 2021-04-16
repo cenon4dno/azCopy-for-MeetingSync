@@ -1,7 +1,4 @@
 /bash/blob.sh
 /powershell/blob.ps1
 /recordings/*
-/videourl/*
-/history/*
-/log/*
-/temp/*
+/logs/*
