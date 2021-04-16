@@ -1,5 +1,5 @@
 azCopy-for-MeetingSync is a shell application to simplify your file sync to an Azure blob storage.
-Initial purpose of this application was to share my meeting recording's to my customer(s).
+Initial purpose of this application was to share my meeting recordings to my customer(s).
 
 ## Prerequisite:
 - Azure blob storage
