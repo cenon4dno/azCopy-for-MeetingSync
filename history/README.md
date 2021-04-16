@@ -1,0 +1,1 @@
+history - logging on running azCopy-for-MeetingSync

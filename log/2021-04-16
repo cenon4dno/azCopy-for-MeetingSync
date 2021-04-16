@@ -1,84 +1,0 @@
-INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
-
-Job cdd4adfe-a0ae-a04e-49f0-15f4532c2d12 has started
-Log file is located at: /home/cenon4dno/.azcopy/cdd4adfe-a0ae-a04e-49f0-15f4532c2d12.log
-
-0 Files Scanned at Source, 0 Files Scanned at Destination
-
-Job cdd4adfe-a0ae-a04e-49f0-15f4532c2d12 Summary
-Files Scanned at Source: 4
-Files Scanned at Destination: 4
-Elapsed Time (Minutes): 0.0334
-Number of Copy Transfers for Files: 0
-Number of Copy Transfers for Folder Properties: 0 
-Total Number Of Copy Transfers: 0
-Number of Copy Transfers Completed: 0
-Number of Copy Transfers Failed: 0
-Number of Deletions at Destination: 0
-Total Number of Bytes Transferred: 0
-Total Number of Bytes Enumerated: 0
-Final Job Status: Completed
-
-INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
-
-Job c666b342-3e71-6841-7fa5-b5f1263ef6c8 has started
-Log file is located at: /home/cenon4dno/.azcopy/c666b342-3e71-6841-7fa5-b5f1263ef6c8.log
-
-0 Files Scanned at Source, 0 Files Scanned at Destination100.0 %, 0 Done, 0 Failed, 1 Pending, 1 Total, 2-sec Throughput (Mb/s): 5.6308100.0 %, 0 Done, 0 Failed, 1 Pending, 1 Total, 2-sec Throughput (Mb/s): 7.57  
-
-Job c666b342-3e71-6841-7fa5-b5f1263ef6c8 Summary
-Files Scanned at Source: 1
-Files Scanned at Destination: 4
-Elapsed Time (Minutes): 0.1
-Number of Copy Transfers for Files: 0
-Number of Copy Transfers for Folder Properties: 0 
-Total Number Of Copy Transfers: 1
-Number of Copy Transfers Completed: 1
-Number of Copy Transfers Failed: 0
-Number of Deletions at Destination: 0
-Total Number of Bytes Transferred: 3302122
-Total Number of Bytes Enumerated: 0
-Final Job Status: Completed
-
-INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
-
-Job 3a72a125-cb31-a54e-4116-2e0da0f05456 has started
-Log file is located at: /home/cenon4dno/.azcopy/3a72a125-cb31-a54e-4116-2e0da0f05456.log
-
-0 Files Scanned at Source, 0 Files Scanned at Destination100.0 %, 0 Done, 0 Failed, 1 Pending, 1 Total, 2-sec Throughput (Mb/s): 5.3709100.0 %, 0 Done, 0 Failed, 1 Pending, 1 Total, 2-sec Throughput (Mb/s): 5.8094
-
-Job 3a72a125-cb31-a54e-4116-2e0da0f05456 Summary
-Files Scanned at Source: 2
-Files Scanned at Destination: 5
-Elapsed Time (Minutes): 0.1
-Number of Copy Transfers for Files: 0
-Number of Copy Transfers for Folder Properties: 0 
-Total Number Of Copy Transfers: 1
-Number of Copy Transfers Completed: 1
-Number of Copy Transfers Failed: 0
-Number of Deletions at Destination: 0
-Total Number of Bytes Transferred: 2796164
-Total Number of Bytes Enumerated: 0
-Final Job Status: Completed
-
-INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
-
-Job 1da282e7-72ed-514c-4127-da2027b6d83a has started
-Log file is located at: /home/cenon4dno/.azcopy/1da282e7-72ed-514c-4127-da2027b6d83a.log
-
-0 Files Scanned at Source, 0 Files Scanned at Destination100.0 %, 0 Done, 0 Failed, 1 Pending, 1 Total, 2-sec Throughput (Mb/s): 5.2298
-
-Job 1da282e7-72ed-514c-4127-da2027b6d83a Summary
-Files Scanned at Source: 3
-Files Scanned at Destination: 6
-Elapsed Time (Minutes): 0.0668
-Number of Copy Transfers for Files: 0
-Number of Copy Transfers for Folder Properties: 0 
-Total Number Of Copy Transfers: 1
-Number of Copy Transfers Completed: 1
-Number of Copy Transfers Failed: 0
-Number of Deletions at Destination: 0
-Total Number of Bytes Transferred: 2796164
-Total Number of Bytes Enumerated: 0
-Final Job Status: Completed
-
