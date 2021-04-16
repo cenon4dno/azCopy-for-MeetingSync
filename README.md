@@ -1,5 +1,5 @@
 azCopy-for-MeetingSync is a shell application to simplify your file sync to an Azure blob storage.
-
+Initial purpose of this application was to share my meeting recording's to my customer(s).
 
 ## Prerequisite:
 - Azure blob storage
@@ -25,7 +25,7 @@ Or donwload as ZIP on https://github.com/cenon4dno/azCopy-for-MeetingSync.
 ```bash
 ./main.sh
 ```
-- Open videourl and you should be able to see your files with their corresponding URL. With that URL you can now share the file to anyone.
+- Open videourl directory and open the current date file, you should be able to see your files with its corresponding URL.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -37,3 +37,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - Installing AZ CLI https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 
 ## License
+[MIT](https://choosealicense.com/licenses/mit/)
