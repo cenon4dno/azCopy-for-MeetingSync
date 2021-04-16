@@ -5,8 +5,8 @@ echo 'Start Application'
 # Variable Declaration
 date=$(date '+%Y-%m-%d')
 datetime=$(date '+%Y-%m-%d %H:%M')
-# Video recordings config
-recordingsDirectory='recordings/'
+# File share config
+shareDirectory='share/'
 # Log config
 logDirectory='logs/'
 # log files
@@ -15,12 +15,12 @@ fileurl='fileurl-'
 history='history'
 
 # Sync Files
-command="azcopy sync '$recordingsDirectory' '$blobStorageLink$blobStorageDelimiter$blobStorageSAS'"
+command="azcopy sync '$shareDirectory' '$blobStorageLink$blobStorageDelimiter$blobStorageSAS'"
 eval $command >> "$logDirectory$run$date.log"
 
 # Write to fileurl
 echo "" > "$logDirectory$fileurl$date.log"
-for entry in "$recordingsDirectory"/*
+for entry in "$shareDirectory"/*
 do
     directoryStructure=$entry
     IFS='/' read -a ARRAY <<< "$directoryStructure"    
@@ -29,6 +29,6 @@ do
 done
 
 # Write to history
-echo "$datetime Synced '$recordingsDirectory' directory" >> "$logDirectory$history.log"
+echo "$datetime Synced '$shareDirectory' directory" >> "$logDirectory$history.log"
 
 echo 'End Application'

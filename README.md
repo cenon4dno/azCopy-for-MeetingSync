@@ -20,9 +20,9 @@ Or donwload as ZIP on https://github.com/cenon4dno/azCopy-for-file-sync.
 2. You have 2 options (bash or powershell) to setup your app to connect to Azure blob storage:
     - (BASH) Open setup/blob-setup.sh 
     - (Powershell) Open setup/blob-setup.ps1
-3. Fill in the NameOfBlobStorage and GeneratedSasKey below, based on your setup on #1. 
+3. Fill in the NameOfBlobStorage, containerName and GeneratedSasKey below, based on your setup on #1. 
 ```bash
-blobStorageLink='https://<NameOfBlobStorage>.blob.core.windows.net/recordings'
+blobStorageLink='https://<NameOfBlobStorage>.blob.core.windows.net/<containerName>'
 blobStorageDelimiter='?'
 blobStorageSAS='<GeneratedSasKey>'
 ```
@@ -34,7 +34,7 @@ blobStorageSAS='<GeneratedSasKey>'
     - (Powershell) blob.ps1 to powershell directory
 
 ## Usage
-- Place all files you want to sync in the recordings directory then go back to root directory and execute:
+- Place all files you want to sync in the share directory then go back to root directory and execute:
     - BASH
     ```bash
     ./bash/main.sh

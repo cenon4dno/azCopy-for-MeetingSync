@@ -6,6 +6,6 @@
 # 3. Rename main file from blob-setup.sh to blob.sh               #
 # ----------------------------------------------------------------#
 
-blobStorageLink='https://<NameOfBlobStorage>.blob.core.windows.net/recordings'
+blobStorageLink='https://<NameOfBlobStorage>.blob.core.windows.net/<containerName>'
 blobStorageDelimiter='?'
 blobStorageSAS='<GeneratedSasKey>'
