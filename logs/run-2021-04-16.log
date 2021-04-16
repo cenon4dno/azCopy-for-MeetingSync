@@ -1,23 +1,0 @@
-INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
-
-Job 5db54119-f652-504e-4617-d50c1ea4c2d6 has started
-Log file is located at: C:\Users\ceeborai.SOUTHPACIFIC\.azcopy\5db54119-f652-504e-4617-d50c1ea4c2d6.log
-
-0 Files Scanned at Source, 0 Files Scanned at DestinationINFO: azcopy.exe: A newer version 10.10.0 is available to download
-
-0 Files Scanned at Source, 0 Files Scanned at Destination
-
-Job 5db54119-f652-504e-4617-d50c1ea4c2d6 Summary
-Files Scanned at Source: 2
-Files Scanned at Destination: 5
-Elapsed Time (Minutes): 0.0333
-Number of Copy Transfers for Files: 0
-Number of Copy Transfers for Folder Properties: 0 
-Total Number Of Copy Transfers: 0
-Number of Copy Transfers Completed: 0
-Number of Copy Transfers Failed: 0
-Number of Deletions at Destination: 0
-Total Number of Bytes Transferred: 0
-Total Number of Bytes Enumerated: 0
-Final Job Status: Completed
-
