@@ -1,1 +1,1 @@
-share - files here are where paste your files to be uploaded to Azure storage account
+share - paste you files and/or recordings here
